@@ -23,7 +23,7 @@ $('#input').on('keypress', function(e) {
         }
     })
     .fail(function() {
-        $('.not-found').text('Unathorized for this search!').show();
+        $('.not-found').text('Unauthorized for this search!').show();
     })
     .always(function() {
     	$(this).val('');
